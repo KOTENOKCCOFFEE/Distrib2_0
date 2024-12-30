@@ -101,7 +101,6 @@ body {
   right: 1vw;
 }
 
-/* Медиазапросы – оставляем лишь изменение шрифтов */
 @media (max-width: 56.25rem) {
   .banner-slider .slide-text .header-title {
     font-size: 2rem;
@@ -182,7 +181,7 @@ body {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 1.5rem;
   justify-items: center;
   margin: 0 auto;
@@ -193,11 +192,11 @@ body {
 
 .card {
   width: 100%;
-  max-width: 360px;
+  max-width: 22.5rem;
   background: #ffffff;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   position: relative;
   text-align: left;
   display: flex;
@@ -243,7 +242,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .card {
-    max-width: 300px;
+    max-width: 18.75rem;
   }
 }
 
@@ -267,7 +266,7 @@ body {
   padding: 1.5rem;
   background: #fff;
   border-radius: 1.25rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 #add-card-form h2 {
